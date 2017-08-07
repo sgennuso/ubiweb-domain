@@ -55,7 +55,7 @@ Every page should contain at a bare minimum a declared layout, and some main con
 ```
 
 You can extend some parts of the layout easily by providing some special sections:
-```
+``` blade
 @extends "layout/main"
 
 @section('title', 'Page Title')
@@ -82,3 +82,18 @@ alert("Holy cow, it works!")
 @endsection
 ```
 
+Perhaps your template gives you different layouts, change them like so and take advantage of their extra sections
+``` blade
+@extends "layout/interior-sidebar"
+
+@section('sidebar')
+<p>This layout has a sidebar.</p>
+<aside class="widget">
+  <h1>Let's put a widget here</h1>
+</aside>
+@endsection
+
+@section('content')
+<p>Hello World</p>
+@endsection
+```
