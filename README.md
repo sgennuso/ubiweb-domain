@@ -97,3 +97,27 @@ Perhaps your template gives you different layouts, change them like so and take 
 <p>Hello World</p>
 @endsection
 ```
+
+## Extending Functionality
+
+Sometimes you may want to do more. What we've outlined so far is the basics for a working site, but you can also extend it to do alot more. 
+
+### Extending Layouts
+You can override your templates layouts by copying `vendor/templateName/layout.html` or any other template file and putting it in a `./content/layouts` directory. This directory overrides any templates or partials with the same name.
+
+### Creating an APP
+You can optionally create a directory called `./app` that can be used to build ontop of the current framework and build your own custom application. There are some functions and files already available for your convenience. For example, maybe you want to have a route we can post to and log someone in. Try the following 
+
+- Create a POST route in `./app/routes.php`, like so `$app->post('login', 'AuthController@login')`
+- Create a corresponding controller in `./app/controller/AuthController.php` in order to receive your request.
+- Do something like:
+``` PHP
+<?php
+
+class AuthController extends Controller {
+  public function login()
+  {
+    setCookie('user', 'A user's authorization cookie');
+  }
+}
+```
