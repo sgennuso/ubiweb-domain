@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'default_language' => 'sp'
+	// 'default_language' => 'sp'
 ];

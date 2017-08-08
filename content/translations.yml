@@ -1,0 +1,7 @@
+fr:
+    uri:
+        /about: /a-propos
+        /contact: /contactez-nous
+    menu:
+        About: A Propos
+        Contact: Contactez-nous

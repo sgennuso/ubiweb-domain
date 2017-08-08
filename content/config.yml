@@ -1,5 +1,8 @@
-template: minimal
-default_language: fr
+template: template-starter
+default_language: en
+languages:
+    - en
+    - fr
 menu:
     - index:
         text: Home

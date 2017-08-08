@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACJ,UAAU,EAAE,GAAG;;ACEhB,IAAK;EACJ,KAAK,ECJM,OAAO",
-"sources": ["../vendor/ubiweb/template-starter/styles/main.scss","../content/styles/main.scss","../content/styles/_variables.scss"],
+"mappings": "AAEA,IAAK;EACJ,UAAU,ECHC,OAAO;;ACGnB,IAAK;EACJ,WAAW,EAAE,UAAU;EACvB,KAAK,EAAE,IAAI",
+"sources": ["../vendor/ubiweb/template-starter/styles/main.scss","../content/styles/_variables.scss","../content/styles/main.scss"],
 "names": [],
 "file": "main.css"
 }
