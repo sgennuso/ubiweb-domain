@@ -1,11 +1,15 @@
 <?php
 
+// Composer Autoloader
 require __DIR__ . '/vendor/autoload.php';
 
-$dotenv = new Dotenv\Dotenv(__DIR__);
+// Load Environment
+$dotenv = new \Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
+// Load Ubiweb Core
 require getenv('CORE_PATH') . '/bootstrap.php';
 
-$app = new App();
+// Instantiate App
+$app = new Ubiweb\Site(__DIR__);
 $app->run();
