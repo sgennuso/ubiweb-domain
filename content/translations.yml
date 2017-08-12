@@ -1,3 +1,6 @@
+# Any translations of routes must be preceded by a slash (/)
+# The rest are arbitrary strings.
+# If a translation doesn't exist, it's key will be used.
 fr:
     /about: /a-propos
     /contact: /contactez-nous

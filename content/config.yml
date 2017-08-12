@@ -1,8 +1,11 @@
+# A template must be specified
 template: template-starter
 default_language: en
 languages:
     - en
     - fr
+# You can have multiple menus with different names.
+# The key for each menu item is the route name, defined in pages.yml
 menu:
     main:
         home:
