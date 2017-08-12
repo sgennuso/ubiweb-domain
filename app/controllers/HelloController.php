@@ -13,6 +13,6 @@ class HelloController extends Controller {
 			'lang' => $this->args['lang'],
 		];
 
-		return $this->view( 'en.home', $data );
+		return $this->view( 'en.hello', $data );
 	}
 }

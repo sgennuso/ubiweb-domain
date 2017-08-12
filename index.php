@@ -1,7 +1,8 @@
 <?php
 
 // Composer Autoloader
-require __DIR__ . '/vendor/autoload.php';
+$location = __DIR__;
+require  $location . '/vendor/autoload.php';
 
 // Load Environment
 $dotenv = new \Dotenv\Dotenv(__DIR__);
@@ -14,6 +15,6 @@ require $corePath . '/bootstrap.php';
 // Instantiate App
 $app = new Ubiweb\Site(__DIR__);
 
-require __DIR__ . "/app/routes.php";
+require $location . "/app/routes.php";
 
 $app->run();

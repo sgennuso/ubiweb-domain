@@ -4,15 +4,16 @@ languages:
     - en
     - fr
 menu:
-    - index:
-        text: Home
-        attributes:
-            class: menu-item
-    - about:
-        text: About
-        attributes:
-            class: menu-item
-    - contact:
-        text: Contact
-        attributes:
-            class: menu-item
+    main:
+        home:
+            text: Home
+            attributes:
+                class: menu-item
+        about:
+            text: About
+            attributes:
+                class: menu-item
+        contact:
+            text: Contact
+            attributes:
+                class: menu-item

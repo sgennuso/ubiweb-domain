@@ -1,7 +1,9 @@
 fr:
-    uri:
-        /about: /a-propos
-        /contact: /contactez-nous
-    menu:
-        About: A Propos
-        Contact: Contactez-nous
+    /about: /a-propos
+    /contact: /contactez-nous
+    hello: bonjour
+    Home: Accueil
+    About: A Propos
+    Contact: Contactez-nous
+en:
+    hello: Hello
