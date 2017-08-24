@@ -1,6 +1,7 @@
 # A template must be specified
 template: template-starter
 default_language: en
+site_title: Ubiweb Sample Domain
 languages:
     - en
     - fr
