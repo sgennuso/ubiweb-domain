@@ -14,7 +14,8 @@ This is a bare bones ubiweb site. It requires [ubiweb-core](https://github.com/u
 ```
 - [Install ubiweb-core](https://github.com/ubiweb-media/ubiweb-core).
 - Clone domain framework: `git clone https://github.com/ubiweb-media/ubiweb-domain.git domain.com`
-- Adjust path in `domain.com/index.php` to the location of `ubiweb-core/bootstrap.php`
+- `mv .env.example .env`
+- Adjust `CORE_PATH` in `.env`
 
 That's it! Of course, you're going to want to configure this more to have a presentable website.
 
